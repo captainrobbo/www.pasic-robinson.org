@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<title>{{title}}</title>
+<!--    <link rel="stylesheet" type="text/css" href="reset-fonts-grids.css" />
+	<link rel="stylesheet" type="text/css" href="base.css"/>-->
+	<link rel="stylesheet" type="text/css" href="/default.css"/>
+
+
+</head>
+
+<body>
+<!--<div id="logo-wrap">-->
+<div id="logo">
+	<h1><a href="/">The Robinsons' web site</a></h1>
+	
+</div>
+<!--</div>-->
+
+<!-- start header -->
+<div id="header">
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="/">Homepage</a></li>
+			<!--<li><a href="#">Blogs</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">About</a></li>
+			<li class="last"><a href="#">Contact</a></li>-->
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+  
+<!-- start page -->
+<div id="wrapper">
+<div id="wrapper-btm">
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+        <div class="post">
+            <h1>{{heading}}</h1>
+            <p>{{description}}</p>
+                
+            {{ for image in images }}
+	            {{ if image.lower().endswith(".jpg") }}
+		            <img border="0" src="/{{image}}" width="90%">
+		            {{ for key in captions}}
+		            	{{if key in image}}
+		            		<p style="text-align:center">{{captions[key]}}</p>
+		            	{{endif}}
+		            {{endfor}}
+	            {{ else }}
+	            	<p><hr>
+
+	            	<h2>{{image}}</h2>
+	            {{ endif }}
+        
+            {{ endfor }}
+		</div>
+
+	</div>
+	<!-- end content -->
+
+
+
+  
+
+
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<ul>
+			<li>
+				<h2>What we did in {{year}}...</h2>
+                <ul>
+                    {{for gallery in galleries}}
+                    {{if gallery["title"] == title}}
+                    <li>{{gallery["title"]}}</li>
+                    {{else}}
+                    <li><a href="/{{gallery['filename']}}">{{gallery["title"]}}</a></li>
+                    {{endif}}
+                    {{endfor}}
+                </ul>
+			</li>
+			<li>
+				<h2>Previous years...</h2>
+
+				<ul>
+					{{ for y in previous_years}}
+                    <li><a href="/{{y}}/index.html">{{y}}</a></li>
+                    {{ endfor }}
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- end sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+
+
+</div>
+<!-- end page -->
+</div>
+</div>
+<!-- start footer -->
+<div id="footer">
+	<div id="footer-wrap">
+	<!--<p id="legal">(c) 2007 YourSite. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>-->
+	</div>
+</div>
+<!-- end footer -->
+</body>
+</html>
+

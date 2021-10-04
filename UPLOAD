@@ -1,0 +1,1 @@
+rsync -avz --exclude 'lib' --exclude 'bin' --exclude 'include' . cr:/home/captainrobbo/webapps/family_site

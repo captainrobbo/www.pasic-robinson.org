@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filter",
+				"filter_categories"
+			],
+			[
+				"inc",
+				"incomplete"
+			],
+			[
+				"by",
+				"by_team"
+			],
+			[
+				"verb",
+				"verbose_name"
+			],
+			[
+				"help",
+				"help_text"
+			],
+			[
+				"Bo",
+				"BooleanField"
+			],
+			[
+				"get",
+				"get_implement_weight"
+			],
+			[
+				"lane",
+				"lane_draw"
+			],
+			[
+				"team",
+				"team_places"
+			],
+			[
+				"rela",
+				"relay_scale"
+			],
+			[
+				"Http",
+				"Http404"
+			],
+			[
+				"results",
+				"results_status"
+			],
+			[
+				"even",
+				"events_entered"
+			],
+			[
+				"is",
+				"is_deleted"
+			],
+			[
+				"can",
+				"can_create_person"
+			],
+			[
+				"new",
+				"new_values"
+			],
+			[
+				"event",
+				"event_id"
+			],
+			[
+				"perf",
+				"perfToFloat"
+			],
+			[
+				"actu",
+				"actual_start_time"
+			],
+			[
+				"finish",
+				"finish_times"
+			],
+			[
+				"team_res",
+				"team_results_by_id"
+			],
+			[
+				"time",
+				"times_by_team"
+			],
+			[
+				"total",
+				"total_competitors"
+			],
+			[
+				"tota",
+				"total_competitors"
+			],
+			[
+				"all",
+				"allocate_points"
+			],
+			[
+				"resul",
+				"result_matters"
+			],
+			[
+				"tie",
+				"tie_count"
+			],
+			[
+				"back",
+				"backpoints"
+			],
+			[
+				"bac",
+				"backscale"
+			],
+			[
+				"DNA",
+				"DNAScoreboard"
+			],
+			[
+				"unit",
+				"unit_scores"
+			],
+			[
+				"a",
+				"a_scale"
+			],
+			[
+				"teams",
+				"teams_in_match"
+			],
+			[
+				"tot",
+				"totals_by_unit"
+			],
+			[
+				"defa",
+				"defaultdict"
+			],
+			[
+				"ev",
+				"ev_score_by_team"
+			],
+			[
+				"per",
+				"per_event"
+			],
+			[
+				"Score",
+				"ScoresPerEvent"
+			],
+			[
+				"Emb",
+				"EmbeddedDocumentListField"
+			],
+			[
+				"find",
+				"find_athletes"
+			],
+			[
+				"iso",
+				"iso_residence"
+			],
+			[
+				"nat",
+				"nationality"
+			],
+			[
+				"date",
+				"date_of_birth"
+			],
+			[
+				"view",
+				"view_name"
+			],
+			[
+				"gut",
+				"guest_comp"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"comp_te",
+				"comp_team_entry_json"
+			],
+			[
+				"flag",
+				"flag_url"
+			],
+			[
+				"countries",
+				"countries_by_iso"
+			],
+			[
+				"coun",
+				"countries_by_iso"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"Does",
+				"DoesNotExist"
+			],
+			[
+				"race",
+				"raceresult_device"
+			],
+			[
+				"racere",
+				"raceresult_device"
+			],
+			[
+				"Rac",
+				"RaceResultPassingsFile"
+			],
+			[
+				"rac",
+				"raceresult"
+			],
+			[
+				"raceres",
+				"raceresult_file_id"
+			],
+			[
+				"pass",
+				"passings_files"
+			],
+			[
+				"panel",
+				"panel-body"
+			],
+			[
+				"ela",
+				"elapsed_time"
+			],
+			[
+				"parse",
+				"parse_formatted_time"
+			],
+			[
+				"pol",
+				"poll_interval"
+			],
+			[
+				"star",
+				"start_time"
+			],
+			[
+				"sto",
+				"store_true"
+			],
+			[
+				"runn",
+				"runners_matched"
+			],
+			[
+				"bib",
+				"bib_to_chip_map"
+			],
+			[
+				"heat",
+				"heat_no"
+			],
+			[
+				"file",
+				"file_id"
+			],
+			[
+				"set",
+				"auto_set_timetable"
+			],
+			[
+				"txt",
+				"txtmins"
+			],
+			[
+				"best",
+				"best_mins"
+			],
+			[
+				"def",
+				"default_minutes_between_heats"
+			],
+			[
+				"show",
+				"show_points"
+			],
+			[
+				"scoring",
+				"scoring_system"
+			],
+			[
+				"ot",
+				"ot_athlete_id"
+			],
+			[
+				"competi",
+				"competitor_id"
+			],
+			[
+				"parsed",
+				"parsed_lif_to_comp"
+			],
+			[
+				"split",
+				"split_count"
+			],
+			[
+				"update",
+				"update_unit_from_racetec"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"from",
+				"from_grid_dicts"
+			],
+			[
+				"create",
+				"create_competitors_from_results"
+			],
+			[
+				"sql",
+				"sql_competition"
+			],
+			[
+				"num",
+				"num_five"
+			],
+			[
+				"lyn",
+				"lynx_license_field"
+			],
+			[
+				"nati",
+				"nationality_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "UPLOAD",
+			"settings":
+			{
+				"buffer_size": 107,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build.py",
+			"settings":
+			{
+				"buffer_size": 24528,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.prep",
+			"settings":
+			{
+				"buffer_size": 3024,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 239.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package con",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andy/code/family_site"
+	],
+	"file_history":
+	[
+		"/Users/andy/code/family_site/index.prep",
+		"/Users/andy/code/family_site/annual.prep",
+		"/Users/andy/code/raceresults/project/reference/findathlete.py",
+		"/Users/andy/code/raceresults/project/federation/urls.py",
+		"/Users/andy/code/raceresults/project/federation/views.py",
+		"/Users/andy/code/raceresults/project/reference/models.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/scoring.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_mlt_roadleague.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2017_gbr_bimcci.py",
+		"/Users/andy/code/raceresults/project/reference/trackutils.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_scores_slides.html",
+		"/Users/andy/Desktop/democomp/lynx.evt",
+		"/Users/andy/Desktop/democomp/lynx.ppl",
+		"/Users/andy/code/raceresults/project/comp/forms.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/forms.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_scoring.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_scoring_form.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/event_detail.html",
+		"/Users/andy/code/raceresults/project/reference/mongo/competition.py",
+		"/Users/andy/code/raceresults/project/compliance/urls.py",
+		"/Users/andy/code/raceresults/project/comp/urls.py",
+		"/Users/andy/code/raceresults/project/federation/management/commands/list_comps_with_results.py",
+		"/Users/andy/code/raceresults/project/federation/management/commands/setup_cyprus_20181018.py",
+		"/Users/andy/code/raceresults/project/reference/tilpa.py",
+		"/Users/andy/code/raceresults/project/federation/templates/federation/serbia.opentrack.run/base.html",
+		"/Users/andy/code/raceresults/project/federation/templates/federation/serbia.opentrack.run/base_site.html",
+		"/Users/andy/code/raceresults/project/federation/static/federation/serbia.opentrack.run/css/base.css",
+		"/Users/andy/code/raceresults/update_from_live",
+		"/Users/andy/code/raceresults/frontend/package.json",
+		"/Users/andy/code/raceresults/project/reference/mongo/height.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/length.py",
+		"/Users/andy/code/raceresults/project/comp/views.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/race.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/competitor_list_edit.html",
+		"/Users/andy/code/raceresults/project/comp/lynx.py",
+		"/Users/andy/code/raceresults/apps/otrupload/OTRUpload.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_tur_turkcell.py",
+		"/Users/andy/Downloads/002-1-02.lif",
+		"/Users/andy/Downloads/10000m Race 1.lif",
+		"/Users/andy/code/raceresults/update_dev_environment",
+		"/Users/andy/code/raceresults/project/reference/tests/test_scoring.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/unit_race_detail.html",
+		"/Users/andy/code/raceresults/project/reference/mongo/eventspec.py",
+		"/Users/andy/code/raceresults/lib/python2.7/site-packages/athlib/utils.py",
+		"/Users/andy/code/raceresults/project/compliance/templates/compliance/report_update.html",
+		"/Users/andy/code/raceresults/project/compliance/views.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/lynx.py",
+		"/Users/andy/code/raceresults/project/comp/excel_output.py",
+		"/Users/andy/code/raceresults/project/comp/templatetags/comp_tags.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/inc_length.html",
+		"/Users/andy/code/raceresults/project/comp/api.py",
+		"/Users/andy/code/raceresults/project/comp/timetronics.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/entries.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/unit.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/reference.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_finalize.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/event_results.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/event_list.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_numbering.html",
+		"/Users/andy/code/raceresults/project/comp/management/commands/check_qps.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/competitor_list_add.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_publish.html",
+		"/Users/andy/code/raceresults/project/entries/models.py",
+		"/Users/andy/code/raceresults/lib/python2.7/site-packages/athlib/codes.py",
+		"/Users/andy/code/raceresults/project/reference/migrations/0003_clean_pbs.py",
+		"/Users/andy/code/raceresults/project/reference/migrations/0002_auto_20180508_2012.py",
+		"/Users/andy/code/raceresults/project/entries/management/commands/tidy_names.py",
+		"/Users/andy/code/raceresults/project/compliance/forms.py",
+		"/Users/andy/code/raceresults/project/federation/static/federation/js/translations.js",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_gbr_not_replace_splits.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/raceresult.py",
+		"/Users/andy/code/raceresults/project/comp/raceresult_chip_mapping.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/walk_match.py",
+		"/Users/andy/code/raceresults/update_from_dev",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_cyp_matseia.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/score_match.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_gbr_not.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_gbr_lia_5.py",
+		"/Users/andy/code/raceresults/project/comp/rml/night_of_10000_start_lists.prep",
+		"/Users/andy/Downloads/test_008_tables.rml",
+		"/Users/andy/Downloads/test_002_paras.rml",
+		"/Users/andy/code/raceresults/project/reference/mongo/result.py",
+		"/Users/andy/code/raceresults/rewrite.py",
+		"/Users/andy/code/raceresults/project/entries/rml/not_pdf.prep",
+		"/Users/andy/code/raceresults/project/comp/documents.py",
+		"/Users/andy/code/raceresults/project/comp/rml/rewrite.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/unit_detail.html",
+		"/Users/andy/code/raceresults/project/entries/urls_entries.py",
+		"/Users/andy/code/raceresults/project/entries/views.py",
+		"/Users/andy/code/raceresults/project/programme/rml/timetable.prep",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/unit_field_detail.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/unit_length_detail.html",
+		"/Users/andy/code/raceresults/project/entries/urls.py",
+		"/Users/andy/code/raceresults/project/reference/push.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_scores.html",
+		"/Users/andy/code/raceresults/project/comp/json_import.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/competitor_list.html",
+		"/Users/andy/code/raceresults/project/comp/management/commands/setup_2018_gbr_lia.py",
+		"/Users/andy/code/raceresults/project/settings.py",
+		"/Users/andy/code/raceresults/project/reference/tests/test_match_views.py",
+		"/Users/andy/code/raceresults/project/reference/management/commands/create_national_teams.py",
+		"/Users/andy/Desktop/lia_test.json",
+		"/Users/andy/code/raceresults/project/reference/utils.py",
+		"/Users/andy/code/raceresults/docs/index.rst",
+		"/Users/andy/code/raceresults/docs/display_api.rst",
+		"/Users/andy/code/raceresults/project/reference/views.py",
+		"/Users/andy/code/raceresults/project/programme/fixtures/58_cbp.json",
+		"/Users/andy/code/raceresults/project/programme/fixtures/58_field.txt",
+		"/Users/andy/code/raceresults/project/programme/fixtures/58_track.txt",
+		"/Users/andy/code/raceresults/project/programme/fixtures/147_track.txt",
+		"/Users/andy/code/raceresults/project/programme/management/commands/load_timetable.py",
+		"/Users/andy/code/raceresults/project/reference/urls.py",
+		"/Users/andy/code/raceresults/project/programme/fixtures/147_cbp.json",
+		"/Users/andy/code/raceresults/publish-html",
+		"/Users/andy/code/raceresults/project/reference/mongo/relay.py",
+		"/Users/andy/code/raceresults/project/comp/raceresult.py",
+		"/Users/andy/code/raceresults/project/reference/mongo/__init__.py",
+		"/Users/andy/code/raceresults/project/comp/management/commands/fetch_raceresult.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_raceresult.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/lynx_upload.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_config.html",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/comp_edit_racetec.html",
+		"/Users/andy/code/raceresults/requirements.txt",
+		"/Users/andy/code/raceresults/tmp/passings_023.txt",
+		"/Users/andy/code/raceresults/project/comp/management/commands/fake_racetec.py",
+		"/Users/andy/code/raceresults/project/comp/tests/test_various.py",
+		"/Users/andy/code/raceresults/project/comp/templates/comp/inc_race.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"imagelist",
+			"captions"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "UPLOAD",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.prep",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1698,
+								1698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 908.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "family_site.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
