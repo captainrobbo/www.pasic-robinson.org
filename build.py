@@ -5,7 +5,7 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2019/images/timgrad/IMG_3430.jpg"
+MAIN_PIC = "2021/images/misc/bike_paris.jpg"
 GALLERIES_BY_YEAR = {
     # "duboka": [
     #     dict(
@@ -27,6 +27,95 @@ GALLERIES_BY_YEAR = {
     #         ]
     #     ),
     # ],
+
+    "2021": [
+        dict(
+            title="Building",
+            description="""Both boys are now on the property ladder, each in a 2 bedrooom
+            flat near Vauxhall and sharing with friends.   We nearly killed ourselves, twice
+            over, for 3 months each, trying to coordinate renovations during the pandemic,
+            and ended up doing way too much of it ourselves. 
+            """,
+            imagedir="flats",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Harrogate",
+            description="to be completed",
+            imagedir="harrogate",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Croatia 1",
+            description="to be completed",
+            imagedir="croatia1",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        dict(
+            title="Cro 2 - Conference",
+            description="to be completed",
+            imagedir="croatia2",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Cro 3 - Beach House",
+            description="to be completed",
+            imagedir="croatia3",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        dict(
+            title="Madeira",
+            description="Andy's athletics business gave us a chance to see this island",
+            imagedir="madeira",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        dict(
+            title="Jamaica",
+            description="A week before Christmas",
+            imagedir="jamaica",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        dict(
+            title="Adventures",
+            description="Harry's bike to Paris",
+            imagedir="misc",
+            captions= {
+            },
+            imagelist= [
+                "bike_paris.jpg"
+            ]
+        ),
+
+
+
+        ],
+
+
 
     "2020": [
         dict(
@@ -51,7 +140,45 @@ GALLERIES_BY_YEAR = {
                 # 'wedding_12.jpeg',
                 # 'wedding_13.jpeg',
             ]
-        )],
+        ),
+        dict(
+            title="Spain",
+            description="""To be completed""",
+            imagedir="spain",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Greece",
+            description="""To be completed""",
+            imagedir="greece",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Italy",
+            description="""To be completed""",
+            imagedir="italy",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+        dict(
+            title="Cuba",
+            description="""To be completed""",
+            imagedir="cuba",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        ],
     "2019": [
         dict(
             title="Andy's Stroke",
@@ -615,7 +742,7 @@ def run():
                         images.append(thing)
 
             else:
-                pattern = "%s/images/%s/*.jpg" % (year, gallery["imagedir"])
+                pattern = "%s/images/%s/*.jp*" % (year, gallery["imagedir"])
                 images = glob.glob(pattern)
 
             namespace["galleries"] = galleries  #need them all to iterate menus
@@ -640,10 +767,10 @@ def run():
         print("wrote", outfilename)
 
     #Now do the overall index
-    year = "2020"
+    year = "2021"
     print("doing main site index, year=", year)
     annual_template = preppy.getModule("index.prep")
-    galleries = GALLERIES_BY_YEAR["2020"]
+    galleries = GALLERIES_BY_YEAR["2021"]
     html = annual_template.getOutput(
         dict(year=year, galleries=galleries, mainpic=MAIN_PIC)
     )

@@ -44,7 +44,7 @@
             <p>{{description}}</p>
                 
             {{ for image in images }}
-	            {{ if image.lower().endswith(".jpg") }}
+	            {{ if image.lower().endswith(".jpg") or image.lower().endswith(".jpeg")}}
 		            <img border="0" src="/{{image}}" width="90%">
 		            {{ for key in captions}}
 		            	{{if key in image}}
