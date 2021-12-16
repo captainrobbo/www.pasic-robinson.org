@@ -44,7 +44,9 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Harrogate",
-            description="to be completed",
+            description="""Lockdown had eased enough to allow staycations, so for our 26th
+            anniversary we went to Harrogate.  It was our first time and we were very impressed
+            with the town, and it's beautiful neighbour Knaresborough""",
             imagedir="harrogate",
             captions= {
             },
@@ -85,7 +87,10 @@ GALLERIES_BY_YEAR = {
 
         dict(
             title="Madeira",
-            description="Andy's athletics business gave us a chance to see this island",
+            description="""Andy's athletics business gave us a chance to see this island
+            for the first time.  An amazing place, combining a sophisticated European city,
+            sub-tropical climate, incredible views (like the 640m straight down below),
+            food and wine - we will be back again many times.""",
             imagedir="madeira",
             captions= {
             },
