@@ -5,7 +5,7 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2021/images/misc/bike_paris.jpg"
+MAIN_PIC = "2021/images/jamaica/sleigh.jpeg"
 GALLERIES_BY_YEAR = {
     # "duboka": [
     #     dict(
@@ -52,7 +52,7 @@ GALLERIES_BY_YEAR = {
             ]
         ),
         dict(
-            title="Croatia 1",
+            title="Cro 1 - August",
             description="to be completed",
             imagedir="croatia1",
             captions= {
@@ -71,8 +71,11 @@ GALLERIES_BY_YEAR = {
             ]
         ),
         dict(
-            title="Cro 3 - Beach House",
-            description="to be completed",
+            title="Cro 3 - Clearout",
+            description="""The beach house is crumbling, and we finally decided to deal with it.
+            Since builders don't work in summer, we had to fly back in October for 3 days of clearing
+            out, destruction, and discussions with the builder.
+            """,
             imagedir="croatia3",
             captions= {
             },
@@ -92,11 +95,11 @@ GALLERIES_BY_YEAR = {
 
         dict(
             title="Jamaica",
-            description="A week before Christmas",
+            description="A week before Christmas, we escaped for a proper week of holiday in Jamaica",
             imagedir="jamaica",
             captions= {
             },
-            imagelist= [
+            imagelist= ['bargirl.jpeg', 'jerkhut.jpg', 'punishment.jpg', 'runner.jpeg', 'sleigh.jpeg', 'sunset2.jpg', 'beach.jpg', 'noganja.jpeg', 'reggae.jpg', 'sailing1.jpeg', 'smiley.jpg', 'sunset3.jpg', 'inverted.jpeg', 'poolsnacks.jpeg', 'rickspool.jpeg', 'sailing2.jpeg', 'sunset.jpg'
             ]
         ),
 
@@ -735,7 +738,7 @@ def run():
                         namespace['captions'][fn] = caption
                         filename = '%s/images/%s/%s' % (year, gallery["imagedir"], fn)
                         images.append(filename)
-                    elif ('IMG_' in thing) or thing.lower().endswith('jpg'):
+                    elif ('IMG_' in thing) or thing.lower().endswith('jpg') or thing.lower().endswith('jpeg'):
                         filename = '%s/images/%s/%s' % (year, gallery["imagedir"], thing)
                         images.append(filename)
                     else:
