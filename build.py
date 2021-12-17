@@ -31,12 +31,21 @@ GALLERIES_BY_YEAR = {
     "2021": [
         dict(
             title="Building",
-            description="""Both boys are now on the property ladder, each in a 2 bedrooom
+            description="""Our year has been dominated by buildings, and problems with them.
+            After herculean efforts doing two complete renovations, both boys are now on the property ladder, each in a 2 bedrooom
             flat near Vauxhall and sharing with friends.   We nearly killed ourselves, twice
             over, for 3 months each, trying to coordinate renovations during the pandemic,
-            and ended up doing way too much of it ourselves. 
+            and ended up doing way too much of it ourselves as successive builders vanished.<br>
+            Luckily, friends helped out - Tom helping us fix brickwork up a scaffold and advising
+            throughout on pipes and plumbing.<br><br>
+            Meanwhile at home we had damp problems with the neighbours' drive against our wall,
+            and had to dig a hole in the kitchen floor (mercifully finding the sagging tiles were a
+            broken timber and not damp-rot).    Our own home still awaits serious attention, 
+            with a new kitchen and rear needing doing in 2022 or 2023, but we can't face that just now. 
+            <br><br>
+            And we all have some skills we did not a year ago...
             """,
-            imagedir="flats",
+            imagedir="building",
             captions= {
             },
             imagelist= [
