@@ -54,8 +54,15 @@ GALLERIES_BY_YEAR = {
         dict(
             title="Harrogate",
             description="""Lockdown had eased enough to allow staycations, so for our 26th
-            anniversary we went to Harrogate.  It was our first time and we were very impressed
-            with the town, and it's beautiful neighbour Knaresborough""",
+            anniversary we took the train to Harrogate.  It was our first time and we were very impressed
+            with the town, and its beautiful neighbour Knaresborough.  The wired-up busker at Kings Cross was
+            social-distancing in a highly lucrative manner!<br><br>
+
+            On the way back, a signal failure stopped us in Peterborough, and rather than risking an all-night wait,
+            we booked a local hotel and saw their lovely cathedral and town square.  I'm not quite sure why it
+            was voted the most boring town in Britain - we found it quite pleasant - although the 'rush-hour' to
+            London the next morning had its entire youthful population heading to town to get drunk.
+            """,
             imagedir="harrogate",
             captions= {
             },
@@ -63,9 +70,31 @@ GALLERIES_BY_YEAR = {
             ]
         ),
         dict(
-            title="Cro 1 - August",
-            description="to be completed",
-            imagedir="croatia1",
+            title="Croatia 1 - August",
+            description="""
+            August saw one of our best Croatian holidays ever.  This summer, we really saw all the best bits
+            <br><br>
+            By August, everyone was vaccinated and travel could resume.  First priority was to get Alisa's mum
+            (who had spent 18 months alone in her apartmet in Sweden) down to the seaside, and give her some company.
+            <br><br>
+            We left London in pouring rain, and 3 hours later we were in beautiful Trogir enjoying the old
+            town.  The next day, Roko and Snejana pisked us up, we headed into Bosnia (with the obligatory
+            amazing meal by a lake), and caught up with Tefika.  Andy was able to get his Tokyo Olympics fix on
+            wifi over 3-Euro gourmet breakfasts while Alisa saw all the friends and relatives.  Then we high-tailed it
+            to the beach house, after a quick pause to get our noses tested before crossing the border back into the EU.
+
+            <br><br>
+            Duboka was as calm and beautiful as ever.  All our usual friends rolled in from aroundd Europe.
+            Sasha and Lela coached Andy in the fine local skill of lunchtime Rakija-tasting and having a siesta
+            on the terrace their dad built.
+            <br><br>
+            After two weeks, we bid farewell to Tefika, and decided to see the Croatia all the tourists see -
+            something we had not really down.  Two nights and a boat trip (with 100 hard-partying Polish students) in Makarska, a night in Split, and
+            two more on the waterfront in Trogir by the airport capped off an amazing 20 days.
+
+
+            """,
+            imagedir="cro1",
             captions= {
             },
             imagelist= [
@@ -770,7 +799,7 @@ def run():
 
             else:
                 pattern = "%s/images/%s/*.jp*" % (year, gallery["imagedir"])
-                images = glob.glob(pattern)
+                images = sorted(glob.glob(pattern))
 
             namespace["galleries"] = galleries  #need them all to iterate menus
             namespace["year"] = year
