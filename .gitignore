@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 personal_access_token.txt
+pyvenv.cfg
+*.sublime*
 
 .Python
 bin/

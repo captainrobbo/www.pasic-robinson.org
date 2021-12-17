@@ -178,7 +178,17 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Cuba",
-            description="""To be completed""",
+            description="""
+            After constant cancellations and rearrangements, a window amazingly opened for a proper
+            family holiday - in Cuba!  We flew out for a week returning on Christmas Day.  Cuba, uniquely,
+            tested everyone on landing, and the 98% of tourists who were negative got to enjoy a week in
+            paradise.  The unlucky ended up in a military hospital, which added a frisson of excitement
+            to the journey!
+
+            A beautiful country full of incredibly nice, smart, educated and organised people stuck in
+            a tough situation.  Havana was spectacular,
+            as was the car for our day trip.   Beaches and the hotel were perfect.  
+            """,
             imagedir="cuba",
             captions= {
             },
