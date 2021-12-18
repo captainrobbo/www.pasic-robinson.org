@@ -100,11 +100,19 @@ GALLERIES_BY_YEAR = {
             imagelist= [
             ]
         ),
-
         dict(
-            title="Cro 2 - Conference",
-            description="to be completed",
-            imagedir="croatia2",
+            title="Croatia 2 - Conference",
+            description="""
+            In September, Andy was co-chairing an international athletics conference in Zadar, a few
+            hours up the Croatian coast from where we normally stay.  People from most countries in Europe
+            flew in, and it was the best yet in this conference series.<br><br>
+            After it was over, we took a day to show the co-organiser, Nicolas from European Athletics,
+            some of our favourite bits; then rushed down to the beach house to meet a potential builder;
+            then back up to Split, where our friend Elif and Mel were flying in for a few days.
+            <br><br>
+            We stayed in the amazing D-Resort in S(h)ibenik, and explored the central coast.
+            """,
+            imagedir="cro2",
             captions= {
             },
             imagelist= [
