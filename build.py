@@ -38,6 +38,9 @@ GALLERIES_BY_YEAR = {
             and ended up doing way too much of it ourselves as successive builders vanished.<br>
             Luckily, friends helped out - Tom helping us fix brickwork up a scaffold and advising
             throughout on pipes and plumbing.<br><br>
+            Then there's the saga of the beach house in Croatia, with it's 1980s plumbing and wiring;
+            after years talking about it, we hope the renovation is happening.  We spent 3 exhausting
+            days clearing out 4 decades of clutter and old furniture.<br><br>
             Meanwhile at home we had damp problems with the neighbours' drive against our wall,
             and had to dig a hole in the kitchen floor (mercifully finding the sagging tiles were a
             broken timber and not damp-rot).    Our own home still awaits serious attention, 
@@ -53,8 +56,8 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Harrogate",
-            description="""Lockdown had eased enough to allow staycations, so for our 26th
-            anniversary we took the train to Harrogate.  It was our first time and we were very impressed
+            description="""Lockdown had eased enough to travel, so we had a meeting in York followed
+            by a night in Harrogate on our 26th anniversary.  It was our first time and we were very impressed
             with the town, and its beautiful neighbour Knaresborough.  The wired-up busker at Kings Cross was
             social-distancing in a highly lucrative manner!<br><br>
 
@@ -78,7 +81,7 @@ GALLERIES_BY_YEAR = {
             (who had spent 18 months alone in her apartmet in Sweden) down to the seaside, and give her some company.
             <br><br>
             We left London in pouring rain, and 3 hours later we were in beautiful Trogir enjoying the old
-            town.  The next day, Roko and Snejana pisked us up, we headed into Bosnia (with the obligatory
+            town.  The next day, Roko and Snjezana picked us up, we headed into Bosnia (with the obligatory
             amazing meal by a lake), and caught up with Tefika.  Andy was able to get his Tokyo Olympics fix on
             wifi over 3-Euro gourmet breakfasts while Alisa saw all the friends and relatives.  Then we high-tailed it
             to the beach house, after a quick pause to get our noses tested before crossing the border back into the EU.
@@ -89,8 +92,9 @@ GALLERIES_BY_YEAR = {
             on the terrace their dad built.
             <br><br>
             After two weeks, we bid farewell to Tefika, and decided to see the Croatia all the tourists see -
-            something we had not really down.  Two nights and a boat trip (with 100 hard-partying Polish students) in Makarska, a night in Split, and
-            two more on the waterfront in Trogir by the airport capped off an amazing 20 days.
+            something we had not really down.  Two nights and a boat trip (with 100 hard-partying Polish students) 
+            in Makarska, a stop in Split to meet the organiser of next month's AthTech conference and plan, and
+            two more nights on the waterfront in Trogir by the airport capped off an amazing 20 days.
 
 
             """,
@@ -106,11 +110,8 @@ GALLERIES_BY_YEAR = {
             In September, Andy was co-chairing an international athletics conference in Zadar, a few
             hours up the Croatian coast from where we normally stay.  People from most countries in Europe
             flew in, and it was the best yet in this conference series.<br><br>
-            After it was over, we took a day to show the co-organiser, Nicolas from European Athletics,
-            some of our favourite bits; then rushed down to the beach house to meet a potential builder;
-            then back up to Split, where our friend Elif and Mel were flying in for a few days.
-            <br><br>
-            We stayed in the amazing D-Resort in S(h)ibenik, and explored the central coast.
+            After a crazy week of non-stop work, we had a day in Split with the co-organiser, Nicolas, 
+            and his wife Samantha; and then met Elif and Mel to unwind and show them around.
             """,
             imagedir="cro2",
             captions= {
@@ -118,18 +119,18 @@ GALLERIES_BY_YEAR = {
             imagelist= [
             ]
         ),
-        dict(
-            title="Cro 3 - Clearout",
-            description="""The beach house is crumbling, and we finally decided to deal with it.
-            Since builders don't work in summer, we had to fly back in October for 3 days of clearing
-            out, destruction, and discussions with the builder.
-            """,
-            imagedir="croatia3",
-            captions= {
-            },
-            imagelist= [
-            ]
-        ),
+        # dict(
+        #     title="Cro 3 - Clearout",
+        #     description="""The beach house is crumbling, and we finally decided to deal with it.
+        #     Since builders don't work in summer, we had to fly back in October for 3 days of clearing
+        #     out, destruction, and discussions with the builder.
+        #     """,
+        #     imagedir="croatia3",
+        #     captions= {
+        #     },
+        #     imagelist= [
+        #     ]
+        # ),
 
         dict(
             title="Madeira",
@@ -197,7 +198,14 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Spain",
-            description="""To be completed""",
+            description="""
+            The moment it was allowed, at the start of June, we got on the first plane to Spain, where Aljosa (Alisa's brother) had
+            bought a house by the seaside in San Pedro del Pinatar.  The cunning devil managed to spend lockdown
+            there instead of in Madrid, and it took a few months for his bosses to realise.  
+            <br><br>
+            It's a beautiful area with historic cities, deserted beaches, bike paths and cafes by the sea - and 
+            a delightful terrace to relax on. We spent six days in heaven after the locked-down spring at home.
+            """,
             imagedir="spain",
             captions= {
             },
@@ -206,7 +214,13 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Greece",
-            description="""To be completed""",
+            description="""Our usual Croatian summer wasn't going to happen, so we took a week's package
+            to Kalamata in Greece in August.  It's a novely spending a week in a nice hotel in August,
+            rather than fixing up the family beach house and doing it all ourselves.
+            <br><br>
+            We had two excursions - one driving down into the wild and historic Mani, and one to ancient Messini, the best preserved
+            ruins in Greece, just down the road
+            """,
             imagedir="greece",
             captions= {
             },
@@ -215,7 +229,12 @@ GALLERIES_BY_YEAR = {
         ),
         dict(
             title="Italy",
-            description="""To be completed""",
+            description="""Right at the end of summer, when rules were changing every Friday, we combined
+            some business in Treviso just north of Venice, and a wedding in the beatiful Prosecco hills.
+            At the end Harry flew out and we spent 24 hours exploring Venice itself - the main island and the Lido. 
+            This was a once-in-a-lifetime
+            chance to see it without massive crowds and with reasonable prices! 
+            """,
             imagedir="italy",
             captions= {
             },
