@@ -176,7 +176,9 @@ GALLERIES_BY_YEAR = {
     "2020": [
         dict(
             title="25th Wedding Anniversary",
-            description="""We should have been in the Bahamas :-( <br><br> Instead, we have been looking at old albums.
+            description="""We should have been swimming with pigs in the Bahamas :-( 
+            Instead, we did the best we could with a punting trip in Oxford, where we were married.  <br><br>
+            Then we looked at some old albums.
             """,
             imagedir="wedding",
             captions= {
@@ -195,6 +197,34 @@ GALLERIES_BY_YEAR = {
                 # 'wedding_11.jpeg',
                 # 'wedding_12.jpeg',
                 # 'wedding_13.jpeg',
+            ]
+        ),
+        dict(
+            title="Harry's Graduation",
+            description="""
+            Harry still hasn't had a proper graduation, as Bristol is waiting for normality
+            to resume. He had a rough final year at uni, with the first term ruined by a
+            teacher's strike, and the spring and summer by the pandemic.
+
+            We went to pick him up at the end of university.
+            """,
+            imagedir="graduation",
+            captions= {
+            },
+            imagelist= [
+            ]
+        ),
+
+        dict(
+            title="A strange year...",
+            description="""
+            This was a year like none other.    The pandemic made us all do things differently.  An endless perfect summer, deer in the park, rivers
+            and vineyards inland beaches, our home gym, zoom fitness classes...
+            """,
+            imagedir="misc",
+            captions= {
+            },
+            imagelist= [
             ]
         ),
         dict(
