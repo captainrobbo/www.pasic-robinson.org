@@ -27,6 +27,93 @@ GALLERIES_BY_YEAR = {
     #         ]
     #     ),
     # ],
+    "2022": [
+        dict(title="January",
+            imagedir="01_jan",
+            captions={},
+            imagelist=[],
+            description="""
+            We liked Madeira so much from our November trip that we went back.
+            Andy competed in their Masters International Meeting.
+            """),
+        dict(title="February",
+            imagedir="02_feb",
+            captions={},
+            imagelist=[],
+            description="""
+            DNA in Glasgow, Edinburgh; Skiing 
+            """),
+        dict(title="March",
+            imagedir="03_mar",
+            captions={},
+            imagelist=[],
+            description="""
+            Cyprus
+            """),
+        dict(title="April",
+            imagedir="04_apr",
+            captions={},
+            imagelist=[],
+            description="""
+            Croatia trip to Builder; Makarska, Osejava, Royal View in Split
+            """),
+        dict(title="May",
+            imagedir="05_may",
+            captions={},
+            imagelist=[],
+            description="""
+            Varsity Athletics, Peak District
+            """),
+        dict(title="June",
+            imagedir="06_jun",
+            captions={},
+            imagelist=[],
+            description="""
+            Builder: Sarajevo, Zenica, Bugojno, Duboka
+            """),
+        dict(title="July",
+            imagedir="07_jul",
+            captions={},
+            imagelist=[],
+            description="""
+            Drive south 9th July.
+            """),
+        dict(title="August",
+            imagedir="08_aug",
+            captions={},
+            imagelist=[],
+            description="""
+            Munich; drive back
+            """),
+        dict(title="September",
+            imagedir="09_sep",
+            captions={},
+            imagelist=[],
+            description="""
+            Amsterdam, Dam to Dam race
+            """),
+        dict(title="October",
+            imagedir="10_oct",
+            captions={},
+            imagelist=[],
+            description="""
+            Tallinn and Riga
+            """),
+        dict(title="November",
+            imagedir="11_nov",
+            captions={},
+            imagelist=[],
+            description="""
+            Abba, Nice
+            """),
+        dict(title="December",
+            imagedir="12_dec",
+            captions={},
+            imagelist=[],
+            description="""
+            Varsity XC, Athens
+            """),
+    ],
 
     "2021": [
         dict(
