@@ -5,50 +5,33 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2021/images/jamaica/sleigh.jpeg"
+MAIN_PIC = "2022/images/IMG_5968.jpeg"
 GALLERIES_BY_YEAR = {
-    # "duboka": [
-    #     dict(
-    #         title="Upstairs",
-    #         description="""Mladen's 3d design""",
-    #         imagedir="upstairs",
-    #         captions= {
-    #         },
-    #         imagelist= [
-    #         ]
-    #     ),
-    #     dict(
-    #         title="Downstairs",
-    #         description="""Mladen's 3d design""",
-    #         imagedir="downstairs",
-    #         captions= {
-    #         },
-    #         imagelist= [
-    #         ]
-    #     ),
-    # ],
     "2022": [
         dict(title="January",
             imagedir="01_jan",
             captions={},
             imagelist=[],
             description="""
-            We liked Madeira so much from our November trip that we went back.
-            Andy competed in their Masters International Meeting.
+            A night out in London before they took the lights down;
+            walk in Richmond Park;
+            and back to Madeira for their Masters athletics meeting
             """),
         dict(title="February",
             imagedir="02_feb",
             captions={},
             imagelist=[],
             description="""
-            DNA in Glasgow, Edinburgh; Skiing 
+            DNA athletics in Glasgow, Edinburgh; Bryan's 50th; Skiing with the Moons family;
             """),
         dict(title="March",
             imagedir="03_mar",
             captions={},
             imagelist=[],
             description="""
-            Cyprus
+            Harry's travels to South America; 
+            Thames Hare and Hounds annual dinner;
+            Riverside; Cyprus
             """),
         dict(title="April",
             imagedir="04_apr",
@@ -968,10 +951,10 @@ def run():
         print("wrote", outfilename)
 
     #Now do the overall index
-    year = "2021"
+    year = str(iyr)
     print("doing main site index, year=", year)
     annual_template = preppy.getModule("index.prep")
-    galleries = GALLERIES_BY_YEAR["2021"]
+    galleries = GALLERIES_BY_YEAR[year]
     html = annual_template.getOutput(
         dict(year=year, galleries=galleries, mainpic=MAIN_PIC)
     )
