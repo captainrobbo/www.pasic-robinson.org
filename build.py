@@ -59,7 +59,8 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            Drive south 9th July.
+            In July we drove South. The plan was to work remotely from the new beach house for a few weeks.
+            Half the fun is the journey, so we took it slowly with night stops in Epernay, Alsace, Zurich and Bassano del Grappa
             """),
         dict(title="August",
             imagedir="08_aug",
