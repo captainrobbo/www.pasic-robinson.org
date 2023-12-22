@@ -7,6 +7,94 @@ import preppy
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
 MAIN_PIC = "2022/images/IMG_5968.jpeg"
 GALLERIES_BY_YEAR = {
+
+    "2023": [
+        dict(title="January",
+            imagedir="01_jan",
+            captions={},
+            imagelist=[],
+            description="""
+            New Year in Spain; Dominican Republic; Chinese New Year
+            """),
+        dict(title="February",
+            imagedir="02_feb",
+            captions={},
+            imagelist=[],
+            description="""
+            Notre dernier ski; Sasha's birthday
+            """),
+        dict(title="March",
+            imagedir="03_mar",
+            captions={},
+            imagelist=[],
+            description="""
+            Malmö; Cape Verde; Duboka repairs & Dubrovnik 
+            """),
+        dict(title="April",
+            imagedir="04_apr",
+            captions={},
+            imagelist=[],
+            description="""
+            Champagne with Johnsons; Canvey Island
+            """),
+        dict(title="May",
+            imagedir="05_may",
+            captions={},
+            imagelist=[],
+            description="""
+            Turkey
+            """),
+        dict(title="June",
+            imagedir="06_jun",
+            captions={},
+            imagelist=[],
+            description="""
+            Iffley Miles, Oxford by Night, Launois, Cinque Terre, Genoa, Chamonix, Achilles
+            """),
+        dict(title="July",
+            imagedir="07_jul",
+            captions={},
+            imagelist=[],
+            description="""
+            Drive south; Germany, Austria, Stolac
+            """),
+        dict(title="August",
+            imagedir="08_aug",
+            captions={},
+            imagelist=[],
+            description="""
+            Bosnia, Verona, Trento, Lindau, Strasbourg and home
+            """),
+        dict(title="September",
+            imagedir="09_sep",
+            captions={},
+            imagelist=[],
+            description="""
+            Amsterdam partying; Athtech in Malta
+            """),
+        dict(title="October",
+            imagedir="10_oct",
+            captions={},
+            imagelist=[],
+            description="""
+            Richmond Park, Cambridge
+            """),
+        dict(title="November",
+            imagedir="11_nov",
+            captions={},
+            imagelist=[],
+            description="""
+            Gibraltar
+            """),
+        dict(title="December",
+            imagedir="12_dec",
+            captions={},
+            imagelist=[],
+            description="""
+            Cold XC, Houses of Parliament, Mexico, London lights
+            """),
+    ],
+
     "2022": [
         dict(title="January",
             imagedir="01_jan",
