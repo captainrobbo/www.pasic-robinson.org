@@ -5,7 +5,7 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2022/images/IMG_5968.jpeg"
+MAIN_PIC = "2023/images/12_dec/IMG_8237.jpeg"
 GALLERIES_BY_YEAR = {
 
     "2023": [
@@ -996,7 +996,7 @@ def run():
                 gallery['heading'] = gallery['title']
 
         for gallery in galleries:
-            pattern = "%s/images/%s/*.jpg" % (year, gallery["imagedir"])
+            pattern = "%s/images/%s/*.jp*" % (year, gallery["imagedir"])
             if "captions" not in gallery:
                 gallery["captions"] = {}
             namespace = gallery.copy()
