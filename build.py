@@ -14,84 +14,91 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            New Year in Spain; Dominican Republic; Chinese New Year
+            New Year in Spain; a week in the Dominican Republic
             """),
         dict(title="February",
             imagedir="02_feb",
             captions={},
             imagelist=[],
             description="""
-            Notre dernier ski; Sasha's birthday
+            Our last ski in Chamonix; Sasha's birthday in London
             """),
         dict(title="March",
             imagedir="03_mar",
             captions={},
             imagelist=[],
             description="""
-            Malmö; Cape Verde; Duboka repairs & Dubrovnik 
+            A week in the Cape Verde islands; Dubrovnik (while we supervised builder in Duboka repair)
             """),
         dict(title="April",
             imagedir="04_apr",
             captions={},
             imagelist=[],
             description="""
-            Champagne with Johnsons; Canvey Island
+            Thames Hare & Hounds annual dinner; Champagne tour with the Johnsons
             """),
         dict(title="May",
             imagedir="05_may",
             captions={},
             imagelist=[],
             description="""
-            Turkey
+            Canvey Island with Tom and Julie; Varsity Athletics Match in Cambridge, Iffley Miles and weekend in Oxford, jetwashing a patio; then a week in Turkey for our anniversary
             """),
         dict(title="June",
             imagedir="06_jun",
             captions={},
             imagelist=[],
             description="""
-            Iffley Miles, Oxford by Night, Launois, Cinque Terre, Genoa, Chamonix, Achilles
+            Evian with friends, last trip to Chamonix, and the Cinque Terre; Oxford & Cambridge versus Penn and Cornell and dinner in St. Hilda's College, Oxford
             """),
         dict(title="July",
             imagedir="07_jul",
             captions={},
             imagelist=[],
             description="""
-            Drive south; Germany, Austria, Stolac
+            The long drive south:  Frankfurt visiting Deutsche Börse, Ulm, Austria, Levico Terme, Prosecco, and then meeting the gang in Duboka
+            """),
+        dict(title="Tefika's 85th birthday",
+            imagedir="07a_85th",
+            captions={},
+            imagelist=[],
+            description="""
+            Family gathering in a villa in Stolac, Herzegovina, for Tefika's 85th birthday party. Beautiful rivers, Turkish architecture, barbecues and lounging; local music star Bozo Vreco
             """),
         dict(title="August",
             imagedir="08_aug",
             captions={},
             imagelist=[],
             description="""
-            Bosnia, Verona, Trento, Lindau, Strasbourg and home
+            Croatia. Then the long drive back:  Giovanni's amazing towns and vineyards in Friuli Venezia Giulia, Verona, Monto Bondone above Trento; Lindau; Strasbourg
             """),
         dict(title="September",
             imagedir="09_sep",
             captions={},
             imagelist=[],
             description="""
-            Amsterdam partying; Athtech in Malta
+            Amsterdam for aister Arifa's 50th party; organising the Athtech conference in Malta
             """),
         dict(title="October",
             imagedir="10_oct",
             captions={},
             imagelist=[],
             description="""
-            Richmond Park, Cambridge
+            Richmond by the river; the Thames clubhouse; visiting David and Naomi Tomkys (and her anazing art) in Cambridge
             """),
         dict(title="November",
             imagedir="11_nov",
             captions={},
             imagelist=[],
             description="""
-            Gibraltar
+            Visit to Athletics Gibraltar, tours of the rock (inside and out), and a day in Vejer de la frontera and Cadiz
             """),
         dict(title="December",
             imagedir="12_dec",
             captions={},
             imagelist=[],
             description="""
-            Cold XC, Houses of Parliament, Mexico, London lights
+            Varsity Cross Country Match; dinner at the Houses of Parliament; our week in Mexico; and  London lights
             """),
     ],
 
