@@ -157,40 +157,49 @@ GALLERIES_BY_YEAR = {
             In July we drove South. The plan was to work remotely from the new beach house for a few weeks.
             Half the fun is the journey, so we took it slowly with night stops in Epernay, Alsace, Zurich and Bassano del Grappa
             """),
+        dict(title="Munich Athletics",
+            imagedir="08a_munich",
+            captions={},
+            imagelist=[],
+            description="""
+            On the way back Andy's work took us to Munich for the European Athletics Championships.  A wonderful city and amazing sport
+            """),
         dict(title="August",
             imagedir="08_aug",
             captions={},
             imagelist=[],
             description="""
-            Munich; drive back
+            The new bridge took us over to Orebic, when not taking shortcuts with Captain Morgan and family.  South to Trebinje in Bosnia for a few days. 
+            Then the drive back!  By amazing luck, met Martyn Bowen and Nina in Primošten on the Croatian coast for lunch.  Then north to Trieste, Grado, Ljubljana and Slovenia with Alisa's friend Lila; 
+            then Neuschwanstein castle, before the Munich athletics which has its own page.
             """),
         dict(title="September",
             imagedir="09_sep",
             captions={},
             imagelist=[],
             description="""
-            Amsterdam, Dam to Dam race
+            Amsterdam for Aletta's birthday and the  Dam to Dam race; various family gatherings; Balliol Gaudy
             """),
         dict(title="October",
             imagedir="10_oct",
             captions={},
             imagelist=[],
             description="""
-            Tallinn and Riga
+            London, Malmo to see Alisa's Mum, Tallinn for the European Athletics convention, and Riga on the way home
             """),
         dict(title="November",
             imagedir="11_nov",
             captions={},
             imagelist=[],
             description="""
-            Abba, Nice
+            Treated by Tim with tickets to Abba Voyage!  An aging athletes heart study. Cross country.  ReportLab reunions. Then three days in Nice around an IT conference
             """),
         dict(title="December",
             imagedir="12_dec",
             captions={},
             imagelist=[],
             description="""
-            Varsity XC, Athens
+            Varsity XC and Thames' new World Heritage plaque; Balkan Athletics meeting in Athens and a tour of Pelepponese; Thames carols run
             """),
     ],
 
