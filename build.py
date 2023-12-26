@@ -9,12 +9,19 @@ MAIN_PIC = "2023/images/12_dec/IMG_8237.jpeg"
 GALLERIES_BY_YEAR = {
 
     "2023": [
-        dict(title="January",
+        dict(title="January - Spain",
             imagedir="01_jan",
             captions={},
             imagelist=[],
             description="""
-            New Year in Spain; a week in the Dominican Republic
+            New Year in Spain - San Pedro with family, then two nights in Alicante
+            """),
+        dict(title="January - Dominican Republic",
+            imagedir="01a_dr",
+            captions={},
+            imagelist=[],
+            description="""
+            Our annual week in the Caribbean
             """),
         dict(title="February",
             imagedir="02_feb",
