@@ -5,8 +5,12 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2023/images/12_dec/IMG_8237.jpeg"
+MAIN_PIC = "2024/images/12_dec/white-xmas.jpeg"
+MAIN_TEXT = """
+Please check back in a few days.  We hope to have our year in pictures up by Christmas!
+"""
 GALLERIES_BY_YEAR = {
+    "2024": [],
 
     "2023": [
         dict(title="January - Spain",
@@ -1068,7 +1072,7 @@ def run():
     annual_template = preppy.getModule("index.prep")
     galleries = GALLERIES_BY_YEAR[year]
     html = annual_template.getOutput(
-        dict(year=year, galleries=galleries, mainpic=MAIN_PIC)
+        dict(year=year, galleries=galleries, mainpic=MAIN_PIC, maintext=MAIN_TEXT)
     )
     open("index.html", "w").write(html)
     print("wrote index.html")
