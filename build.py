@@ -10,7 +10,80 @@ MAIN_TEXT = """
 Please check back in a few days.  We hope to have our year in pictures up by Christmas!
 """
 GALLERIES_BY_YEAR = {
-    "2024": [],
+    "2024": [
+        dict(title="Vietnam and Cambodia",
+            imagedir="01_jan",
+            captions={},
+            imagelist=[],
+            description="""
+            Our month-long adventure in Vietnam and Cambodia
+            """),
+        dict(title="World Cross Country",
+            imagedir="03_mar",
+            captions={},
+            imagelist=[],
+            description="""
+            Watching the World Cross in scorching hot Belgrade
+            """),
+        dict(title="California",
+            imagedir="04_apr",
+            captions={},
+            imagelist=[],
+            description="""
+            Kyle's wedding, San Diego, LA and Palm Springs 
+            """),
+        dict(title="Sicily",
+            imagedir="05_may",
+            captions={},
+            imagelist=[],
+            description="""
+            Sicily
+            """),
+        dict(title="Running adventures",
+            imagedir="06_jun",
+            captions={},
+            imagelist=[],
+            description="""
+            Bannister Miles and the UK Ekiden
+            """),
+        dict(title="European road trip",
+            imagedir="07_jun",
+            captions={},
+            imagelist=[],
+            description="""
+            A month on the coast, down and back again
+            """),
+        dict(title="Santorini",
+            imagedir="09_sep",
+            captions={},
+            imagelist=[],
+            description="""
+            4 days seeing the volcano
+            """),
+        dict(title="Napoli + Amalfi Coast",
+            imagedir="10_oct",
+            captions={},
+            imagelist=[],
+            description="""
+            Napoli, Amalfi, Sorrento, Pompeii
+            """),
+        dict(title="Madeira",
+            imagedir="11_nov",
+            captions={},
+            imagelist=[],
+            description="""
+            Combining business and pleasure
+            """),
+        dict(title="La Romana",
+            imagedir="12_dec",
+            captions={},
+            imagelist=[],
+            description="""
+            Our traditional week of sun and relaxation
+            """),
+
+
+    ],
 
     "2023": [
         dict(title="January - Spain",
