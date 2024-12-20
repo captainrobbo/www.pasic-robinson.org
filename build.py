@@ -81,6 +81,13 @@ GALLERIES_BY_YEAR = {
             description="""
             Our traditional week of sun and relaxation
             """),
+        dict(title="Friends and Family",
+            imagedir="13_misc",
+            captions={},
+            imagelist=[],
+            description="""
+            Various things throughout the year
+            """),
 
 
     ],
@@ -1088,7 +1095,7 @@ def run():
 
         iyr = int(year)
         rng = reversed(range(2004, iyr))
-        previous_years = map(str, rng)
+        previous_years = list(map(str, rng))
 
         for gallery in galleries:
             gallery["filename"] = year + "/" + gallery["imagedir"] + ".html"
@@ -1134,7 +1141,7 @@ def run():
         annual_template = preppy.getModule("annual.prep")
         outfilename = year + "/index.html"
         html = annual_template.getOutput(
-            dict(year=year, galleries=galleries)
+            dict(year=year, galleries=galleries, previous_years=previous_years)
             )
         open(outfilename, "w").write(html)
         print("wrote", outfilename)
