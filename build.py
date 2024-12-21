@@ -5,9 +5,9 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2024/images/12_dec/white-xmas.jpeg"
+MAIN_PIC = "2024/images/white-xmas.jpeg"
 MAIN_TEXT = """
-Please check back in a few days.  We hope to have our year in pictures up by Christmas!
+It's been a busy year of travel (and everything else)!  Some highlights of our year are on the left.
 """
 GALLERIES_BY_YEAR = {
     "2024": [
