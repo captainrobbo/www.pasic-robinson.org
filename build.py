@@ -55,7 +55,7 @@ GALLERIES_BY_YEAR = {
             Bannister Miles and the UK Ekiden
             """),
         dict(title="European road trip",
-            imagedir="07_jun",
+            imagedir="07_jul",
             captions={},
             imagelist=[],
             description="""
