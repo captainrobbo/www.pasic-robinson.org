@@ -18,12 +18,20 @@ GALLERIES_BY_YEAR = {
             description="""
             Our month-long adventure in Vietnam and Cambodia
             """),
+        dict(title="Nice",
+            imagedir="02_nice",
+            captions={},
+            imagelist=[],
+            description="""
+            Meeting in Monaco, couple of days in Nice
+            """),
         dict(title="World Cross Country",
             imagedir="03_mar",
             captions={},
             imagelist=[],
             description="""
-            Watching the World Cross in scorching hot Belgrade
+            Watching the World Cross in scorching hot Belgrade.  My system runs athletics in Serbia,
+            and we were fortnate to be invited as guests of the local organisers and World Athletics.
             """),
         dict(title="California",
             imagedir="04_apr",
@@ -66,6 +74,13 @@ GALLERIES_BY_YEAR = {
             imagelist=[],
             description="""
             Napoli, Amalfi, Sorrento, Pompeii
+            """),
+        dict(title="Macedonia and Greece",
+            imagedir="11_mac",
+            captions={},
+            imagelist=[],
+            description="""
+            European Convention in Skopje, Meteora and Thessaloniki
             """),
         dict(title="Madeira",
             imagedir="11_nov",

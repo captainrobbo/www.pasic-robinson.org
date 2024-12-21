@@ -1,0 +1,23 @@
+# controls structure of 2024 website
+01_jan:
+  title: Vietnam and Cambodia
+  description:  an amazing month-long odyssey
+  sections:
+    - dirname: saigon
+      title: Saigon
+      description: Lots of scooters
+
+    - dirname: siem reap
+      title: Siem Reap
+      description: Elegant french-colonial town and gateway to Angkor Wat
+
+    - angkor wat temples
+    - phnom penh
+    - koh rong samloem
+    - chau doc
+    - hoi an
+    - da nang
+    - ninh binh
+    - hanoi
+
+
