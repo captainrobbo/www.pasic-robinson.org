@@ -11,12 +11,26 @@ MAIN_TEXT = """
 """
 GALLERIES_BY_YEAR = {
     "2025": [
-        dict(title="Latin America",
+        dict(title="Lima, Peru",
             imagedir="latam",
             captions={},
             imagelist=[],
             description="""
-            In late January we set off for a tour of Latin America.  Flew into Sao Paolo, then Lima, Cusco and Macchu Picchu, Arequipa, Santiago, across the Amdes from Puerto Montt to Bariloche, Mendoza, Buenos Aires and back via Sao Paolo!
+            In late January we set off for a tour of Latin America.  Flew into Sao Paolo, then Lima, Cusco and Macchu Picchu, Arequipa, Santiago, across the Amdes from Puerto Montt to Bariloche, Mendoza, Buenos Aires and back via Sao Paolo!  This page is just Lima and Cusco.
+            """),
+        dict(title="Cusco and Macchu Picchu, Peru",
+            imagedir="latam2",
+            captions={},
+            imagelist=[],
+            description="""
+            Cusco, Sacred Valley and Macchu Picchu
+            """),
+        dict(title="Arequipa, Peru",
+            imagedir="latam3",
+            captions={},
+            imagelist=[],
+            description="""
+            Arequipa, the White City
             """),
         dict(title="Monaco / Nice",
             imagedir="monaco",
