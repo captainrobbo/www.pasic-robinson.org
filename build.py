@@ -16,7 +16,7 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            A month in Latin America
+            In late January we set off for a tour of Latin America.  Flew into Sao Paolo, then Lima, Cusco and Macchu Picchu, Arequipa, Santiago, across the Amdes from Puerto Montt to Bariloche, Mendoza, Buenos Aires and back via Sao Paolo!
             """),
         dict(title="Monaco / Nice",
             imagedir="monaco",
