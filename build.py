@@ -5,11 +5,90 @@ import glob
 import preppy
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
-MAIN_PIC = "2024/images/white-xmas.jpeg"
+MAIN_PIC = "2025/images/muscle.jpg"
 MAIN_TEXT = """
-It's been a busy year of travel (and everything else)!  Some highlights of our year are on the left.
+2025 is "in development" on 17-19 Dec, check back in a couple of days!
 """
 GALLERIES_BY_YEAR = {
+    "2025": [
+        dict(title="Latin America",
+            imagedir="latam",
+            captions={},
+            imagelist=[],
+            description="""
+            A month in Latin America
+            """),
+        dict(title="Monaco / Nice",
+            imagedir="monaco",
+            captions={},
+            imagelist=[],
+            description="""
+            Work with World Athletics
+            """),
+        dict(title="Porto",
+            imagedir="porto",
+            captions={},
+            imagelist=[],
+            description="""
+            Porto
+            """),
+        dict(title="Bahamas",
+            imagedir="bahamas",
+            captions={},
+            imagelist=[],
+            description="""
+            30th anniversary trip to Bahamas
+            """),
+        dict(title="Croatia",
+            imagedir="croatia",
+            captions={},
+            imagelist=[],
+            description="""
+            Usual summer expedition
+            """),
+        dict(title="Alisa's 60th birthday",
+            imagedir="birthday",
+            captions={},
+            imagelist=[],
+            description="""
+            Alisa's 60th birthday
+            """),
+        dict(title="Sardinia",
+            imagedir="sardinia",
+            captions={},
+            imagelist=[],
+            description="""
+            Sardinia
+            """),
+        dict(title="Puglia",
+            imagedir="puglia",
+            captions={},
+            imagelist=[],
+            description="""
+            Puglia en route to San Marino
+            """),
+        dict(title="San Marino",
+            imagedir="sanmarino",
+            captions={},
+            imagelist=[],
+            description="""
+            Athtech in San Marino
+            """),
+        dict(title="Madeira",
+            imagedir="madeira",
+            captions={},
+            imagelist=[],
+            description="""
+            Madeira EMACS
+            """),
+        dict(title="Dominican Republic",
+            imagedir="dominican",
+            captions={},
+            imagelist=[],
+            description="""
+            Family holiday in DR
+            """),
+    ],
     "2024": [
         dict(title="Vietnam and Cambodia",
             imagedir="01_jan",
