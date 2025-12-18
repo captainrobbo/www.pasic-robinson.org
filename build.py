@@ -53,6 +53,13 @@ GALLERIES_BY_YEAR = {
             description="""
             Mendoza in Argentina. Steak and wine!
             """),
+        dict(title="Buenos Aires",
+            imagedir="latam7",
+            captions={},
+            imagelist=[],
+            description="""
+            Buenos Aires, the Paris of the south...
+            """),
         dict(title="Monaco / Nice",
             imagedir="monaco",
             captions={},
