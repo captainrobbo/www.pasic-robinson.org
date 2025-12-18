@@ -32,6 +32,27 @@ GALLERIES_BY_YEAR = {
             description="""
             Arequipa, the White City
             """),
+        dict(title="Chile",
+            imagedir="latam4",
+            captions={},
+            imagelist=[],
+            description="""
+            Chile:  Santiago, Maipo Valley, Valparaiso + Vina del Mar, then south to Patagonia to cross the Andes by bus...
+            """),
+        dict(title="Bariloche, Argentina",
+            imagedir="latam5",
+            captions={},
+            imagelist=[],
+            description="""
+            The Chamonix of the southern hemisphere...
+            """),
+        dict(title="Mendoza",
+            imagedir="latam6",
+            captions={},
+            imagelist=[],
+            description="""
+            Mendoza in Argentina. Steak and wine!
+            """),
         dict(title="Monaco / Nice",
             imagedir="monaco",
             captions={},
