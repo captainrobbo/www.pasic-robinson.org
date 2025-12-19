@@ -70,7 +70,7 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            Work with World Athletics
+            Work with World Athletics, but some time to explore as well...
             """),
         dict(title="Porto",
             imagedir="porto",
