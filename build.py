@@ -16,14 +16,19 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            In late January we set off for a tour of Latin America.  Flew into Sao Paolo, then Lima, Cusco and Macchu Picchu, Arequipa, Santiago, across the Amdes from Puerto Montt to Bariloche, Mendoza, Buenos Aires and back via Sao Paolo!  This page is just Lima and Cusco.
+            In late January we set off for a tour of Latin America.  
+            We flew into Sao Paolo, then on to 
+            Lima, Cusco and Macchu Picchu and Arequipa in Peru;  
+            Santiago in Chile; then across the Amdes from Puerto Montt to Bariloche in Argentina; 
+            then Mendoza, Buenos Aires and back via Sao Paolo!  
+            This page just covers Lima - later stages are in the side menu.
             """),
         dict(title="Cusco and Macchu Picchu, Peru",
             imagedir="latam2",
             captions={},
             imagelist=[],
             description="""
-            Cusco, Sacred Valley and Macchu Picchu
+            Cusco, the Sacred Valley and Macchu Picchu
             """),
         dict(title="Arequipa, Peru",
             imagedir="latam3",
