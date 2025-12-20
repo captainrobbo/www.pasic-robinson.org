@@ -1,4 +1,4 @@
-""" sort and rename photos by datetime taken
+"""sort and rename photos by datetime taken
 
 
 Images tend to be from iphone with names like IMG_0787.jpeg,
@@ -17,6 +17,7 @@ If the folder is in git, tell git to forget them first with
     git rm --cached *.jpeg
 
 """
+
 import glob
 import os
 import sys
@@ -34,8 +35,9 @@ def get_timestamped_name(path):
 
     txt = exif[0x0132]
     txt = txt.replace(":", "")
-    txt = txt.replace(" ","_")
+    txt = txt.replace(" ", "_")
     return txt + ext
+
 
 def run():
     if len(sys.argv) != 2:
@@ -46,7 +48,6 @@ def run():
     os.chdir(dirname)
 
     imagelist = glob.glob("*.jp*")
-
 
     print(f"found {len(imagelist)} photos")
 
@@ -62,6 +63,5 @@ def run():
     print(f"Renamed {fixed} files in chrono order")
 
 
-
-if __name__=='__main__':
+if __name__ == "__main__":
     run()
