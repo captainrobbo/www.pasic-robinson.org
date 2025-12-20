@@ -17,12 +17,11 @@ If the folder is in git, tell git to forget them first with
     git rm --cached *.jpeg
 
 """
-import sys
-import os
 import glob
+import os
+import sys
+
 from PIL import Image
-
-
 
 
 def get_timestamped_name(path):
