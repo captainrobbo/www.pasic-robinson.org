@@ -1246,7 +1246,7 @@ def run():
                 gallery['heading'] = gallery['title']
 
         for gallery in galleries:
-            info_file_name = year + "/" + gallery["imagedir"] + "/index.yaml"
+            info_file_name = year + "/images/" + gallery["imagedir"] + "/index.yaml"
             if os.path.isfile(info_file_name):
                 print("YAML:" + info_file_name)
                 info = yaml.safe_load(open(info_file_name).read())
