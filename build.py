@@ -119,7 +119,11 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            Athtech in San Marino
+            I'm an organiser of the <a href="https://athtech.run/">AthTech</a> conference,
+            which this year was in San Marino.  We had delegates from all over Europe and further,
+            three exciting days working for the
+            future of the sport, with amazing views from this beautiful small country
+            within Italy, and a wonderful gala dinner from the San Mrino authorities.
             """),
         dict(title="Madeira",
             imagedir="madeira",
