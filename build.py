@@ -126,7 +126,10 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            Madeira EMACS
+            Madeira, here we come - again!   OpenTrack are here doing results for the
+            European Masters Athletics (4000 people in 5 venues over 12 days) so we had 
+            to work most of the time, but we got a couple of days off to show my parents
+            around the island.
             """),
         dict(title="Dominican Republic",
             imagedir="dominican",
