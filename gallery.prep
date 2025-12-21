@@ -43,9 +43,21 @@
             <h1>{{heading}}</h1>
             <p>{{description}}</p>
                 
-            {{ for image in images }}
+            {{ for info in imageinfo }}
+            	{{script}}
+            	image = info["imagename"]
+            	{{endscript}}
 	            {{ if image.lower().endswith(".jpg") or image.lower().endswith(".jpeg")}}
+		            {{ if info["text"] }}
+		            	<p >{{info["text"]}}</p>
+		            {{ endif }}
+
 		            <img border="0" src="/{{image}}" width="90%">
+
+		            {{ if info["caption"] }}
+		            	<p style="text-align:center">{{info["caption"]}}</p>
+		            {{ endif }}
+
 		            {{ for key in captions}}
 		            	{{if key in image}}
 		            		<p style="text-align:center">{{captions[key]}}</p>

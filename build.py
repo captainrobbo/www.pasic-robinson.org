@@ -1,6 +1,8 @@
 import glob
+import os
 
 import preppy
+import yaml
 
 # MAIN_PIC = "2016/images/08_bergamo/IMG_C5199.jpg"
 MAIN_PIC = "2025/images/muscle.jpg"
@@ -1237,12 +1239,21 @@ def run():
         previous_years = list(map(str, rng))
 
         for gallery in galleries:
+            # does it have a yaml file?  new system 2025
+
             gallery["filename"] = year + "/" + gallery["imagedir"] + ".html"
             if 'heading' not in gallery:
                 gallery['heading'] = gallery['title']
 
         for gallery in galleries:
-            pattern = "%s/images/%s/*.jp*" % (year, gallery["imagedir"])
+            info_file_name = year + "/" + gallery["imagedir"] + "/index.yaml"
+            if os.path.isfile(info_file_name):
+                print("YAML:" + info_file_name)
+                info = yaml.safe_load(open(info_file_name).read())
+                gallery.update(info)
+
+
+            pattern = "{}/images/{}/*.jp*".format(year, gallery["imagedir"])
             if "captions" not in gallery:
                 gallery["captions"] = {}
             namespace = gallery.copy()
@@ -1264,11 +1275,39 @@ def run():
                 pattern = "%s/images/%s/*.jp*" % (year, gallery["imagedir"])
                 images = sorted(glob.glob(pattern))
 
+                notes = gallery.get("notes", {})
+                if notes:
+                    print("Gallery has notes!", notes)
+
+                # new in 2025.  Loop over a structure, not just a filename
+                imageinfo = []
+                for image in images:
+                    imgfilename = os.path.split(image)[-1]
+
+                    title = text = caption = ""
+                    if imgfilename in notes:
+                        note = notes[imgfilename]
+                        title = note.get("title", "")
+                        text = note.get("text", "")
+                        caption = note.get("caption", "")
+
+
+                    info = dict(
+                        imagename=image,
+                        title=title,
+                        text=text,
+                        caption=caption
+                        )
+
+                    if info["caption"]:
+                        print(info)
+                    imageinfo.append(info)
+
             namespace["galleries"] = galleries  #need them all to iterate menus
             namespace["year"] = year
             namespace["previous_years"] = previous_years
             namespace["images"] = images
-
+            namespace["imageinfo"] = imageinfo
             html = gallery_template.getOutput(namespace)
 
             outfilename = gallery["filename"]
