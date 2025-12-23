@@ -44,10 +44,17 @@
             <p>{{description}}</p>
                 
             {{ for info in imageinfo }}
+            	<div class="pic_wrapper">
             	{{script}}
             	image = info["imagename"]
             	{{endscript}}
 	            {{ if image.lower().endswith(".jpg") or image.lower().endswith(".jpeg")}}
+
+		            {{ if info["title"] }}
+
+		            	<h1 style="padding-top: 10px">{{info["title"]}}</h1>
+		            {{ endif }}
+
 		            {{ if info["text"] }}
 		            	<p >{{info["text"]}}</p>
 		            {{ endif }}
@@ -68,6 +75,7 @@
 
 	            	<h2>{{image}}</h2>
 	            {{ endif }}
+	        	</div>
         
             {{ endfor }}
 		</div>
