@@ -16,6 +16,7 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
+            Travelling light - hand luggage only!
             In late January we set off for a tour of Latin America.  
             We flew into Sao Paolo, then on to 
             Lima, Cusco and Macchu Picchu and Arequipa in Peru;  
@@ -44,6 +45,7 @@ GALLERIES_BY_YEAR = {
             description="""
             Chile:  Santiago, Maipo Valley, Valparaiso + Vina del Mar, then south to Patagonia to cross the Andes by bus...
             """),
+            # photos out of order - look - timestamp is off. wine at Concha y Toro not in sequence
         dict(title="Bariloche, Argentina",
             imagedir="latam5",
             captions={},
@@ -119,7 +121,7 @@ GALLERIES_BY_YEAR = {
             captions={},
             imagelist=[],
             description="""
-            I'm an organiser of the <a href="https://athtech.run/">AthTech</a> conference,
+            Andy is one of the organisers of the <a href="https://athtech.run/">AthTech</a> conference,
             which this year was in San Marino.  We had delegates from all over Europe and further,
             three exciting days working for the
             future of the sport, with amazing views from this beautiful small country
